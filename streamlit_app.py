@@ -5,7 +5,7 @@ import streamlit as st
 import pandas as pd
 
 # 1. 제목
-st.title("Streamlit 기본 예제 페이지")
+st.title("차민주의 인터넷 페이지")
 
 # 2. 부제목
 st.subheader("이 페이지는 다양한 Streamlit 기능을 보여줍니다.")
@@ -16,7 +16,7 @@ df = pd.DataFrame({
     "Age": [24, 30, 29],
     "Country": ["Korea", "USA", "UK"]
 })
-st.write("데이터프레임 예제")
+st.write("차민주 보")
 st.dataframe(df)
 
 # 4. HTML 활용 예제
